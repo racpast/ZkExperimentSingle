@@ -12,7 +12,7 @@
 
 ### 1️⃣重制版下载：
 
-**链接**：[https://share.weiyun.com/F4DB1KnM]()
+**链接**：[https://github.com/racpast/ZkExperimentSingle/releases]()
 
 **密码**：abc123
 
