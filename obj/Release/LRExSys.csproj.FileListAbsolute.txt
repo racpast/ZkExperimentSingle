@@ -1,0 +1,5 @@
+C:\Users\2023\Desktop\LRExSys\obj\Release\LRExSys.csproj.AssemblyReference.cache
+C:\Users\2023\Desktop\LRExSys\obj\Release\LRExSys.Form1.resources
+C:\Users\2023\Desktop\LRExSys\obj\Release\LRExSys.Properties.Resources.resources
+C:\Users\2023\Desktop\LRExSys\obj\Release\LRExSys.csproj.GenerateResource.cache
+C:\Users\2023\Desktop\LRExSys\obj\Release\LRExSys.csproj.CoreCompileInputs.cache
