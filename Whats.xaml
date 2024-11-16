@@ -1,0 +1,211 @@
+﻿<Window x:Class="中考仿真实验重制版4._9.Whats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:中考仿真实验重制版4._9"
+        mc:Ignorable="d"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+	    Title="什么是“得分判断器”？"
+	    AllowsTransparency="True"
+	    Height="584"
+	    Width="872"
+	    WindowStyle="None"
+	    ResizeMode="NoResize"
+	    Topmost="True"
+	    ShowInTaskbar="False"
+	    WindowStartupLocation="CenterScreen"
+	    BorderThickness="5,5,5,5"
+	    BorderBrush="#9900E2FF">
+    <Control.Background>
+        <ImageBrush
+			ImageSource="/img/102569373_p015.jpg"
+			Stretch="UniformToFill" />
+    </Control.Background>
+    <Grid>
+        <RichTextBox
+			Name="textBlock"
+			Margin="10,10,10,378"
+			FontSize="22"
+			Background="#7FFFFFFF"
+			BorderBrush="#FF1DAB00"
+			IsReadOnly="True">
+            <FlowDocument>
+                <Paragraph
+					TextAlignment="Center">
+                    <Span
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="40">
+                        <Run
+							Text="&gt;&gt;什么是" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FF800080"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="40">
+                        <Run
+							Text="得分判定器" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="40">
+                        <Run
+							Text="？&lt;&lt;" />
+                    </Span>
+                </Paragraph>
+                <Paragraph>
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="在勾选" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FFFF0000"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="“是否显示得分判定器”" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="以后，在" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FF008000"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="物理以及化学的实验界面" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="将会显示用于" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FFFFD700"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="开发调试阶段" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="的具体判定列表，为了使判定更" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FFFFA500"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="透明可视化" />
+                    </Span>
+                    <Run
+						Text=" " />
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="，特意开放该选项，如下图：" />
+                    </Span>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Grid
+			Margin="10,201,10,60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+					Width="*" />
+                <ColumnDefinition
+					Width="*" />
+            </Grid.ColumnDefinitions>
+            <hc:CompareSlider
+				Name="compareSlider"
+				Value="4">
+                <hc:CompareSlider.TargetContent>
+                    <Border>
+                        <Border.Background>
+                            <ImageBrush
+								Stretch="UniformToFill"
+								ImageSource="pack://application:,,,/img/HXA.png" />
+                        </Border.Background>
+                    </Border>
+                </hc:CompareSlider.TargetContent>
+                <hc:CompareSlider.SourceContent>
+                    <Border>
+                        <Border.Background>
+                            <ImageBrush
+								Stretch="UniformToFill"
+								ImageSource="pack://application:,,,/img/HX.png" />
+                        </Border.Background>
+                    </Border>
+                </hc:CompareSlider.SourceContent>
+            </hc:CompareSlider>
+            <hc:CompareSlider
+				Name="compareSlider1"
+				Value="4"
+				Grid.Column="1">
+                <hc:CompareSlider.TargetContent>
+                    <Border>
+                        <Border.Background>
+                            <ImageBrush
+								Stretch="UniformToFill"
+								ImageSource="pack://application:,,,/img/WLA.png" />
+                        </Border.Background>
+                    </Border>
+                </hc:CompareSlider.TargetContent>
+                <hc:CompareSlider.SourceContent>
+                    <Border>
+                        <Border.Background>
+                            <ImageBrush
+								Stretch="UniformToFill"
+								ImageSource="pack://application:,,,/img/WL.png" />
+                        </Border.Background>
+                    </Border>
+                </hc:CompareSlider.SourceContent>
+            </hc:CompareSlider>
+        </Grid>
+        <Button
+			FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+			Margin="0,521,0,0"
+			VerticalAlignment="Top"
+			Content="确定"
+			Width="852"
+			FontSize="36"
+			Opacity="0.8"
+			Background="#CCFFFFFF"
+			BorderBrush="#FF0027FF"
+			Height="49"
+			Foreground="#FF0061FF"
+			Click="Exit_Click" />
+    </Grid>
+</Window>

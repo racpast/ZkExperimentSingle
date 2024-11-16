@@ -1,0 +1,247 @@
+﻿<Window x:Class="中考仿真实验重制版4._9.about"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:中考仿真实验重制版4._9"
+        mc:Ignorable="d"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+		Title="关于..."
+		AllowsTransparency="True"
+		Height="756"
+		Width="872"
+		WindowStyle="None"
+		ResizeMode="NoResize"
+		Topmost="True"
+		ShowInTaskbar="False"
+		WindowStartupLocation="CenterScreen"
+		BorderThickness="5,5,5,5"
+		BorderBrush="#9900E2FF">
+    <Control.Background>
+        <ImageBrush
+			ImageSource="/img/105948989_p06.jpg"
+			Stretch="UniformToFill" />
+    </Control.Background>
+    <Grid
+		Margin="4,0,-4,0">
+        <RichTextBox
+			Margin="6,10,14,322"
+			FontSize="22"
+			Background="#7FFFFFFF"
+			BorderBrush="#FF1DAB00"
+			IsReadOnly="True">
+            <FlowDocument>
+                <Paragraph
+					TextAlignment="Center">
+                    <Span
+						Foreground="#FF800080"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="40">
+                        <Run
+							Text="&gt;&gt;关于...&lt;&lt;" />
+                    </Span>
+                </Paragraph>
+                <Paragraph
+					TextAlignment="Center">
+                    <Span
+						Foreground="#FF90EE90"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="35">
+                        <Run
+							Text="初中学业水平考试仿真实验操作系统V4.9" />
+                    </Span>
+                </Paragraph>
+                <Paragraph
+					TextAlignment="Center">
+                    <Span
+						Foreground="#FFB22222"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="35">
+                        <Run
+							Text="Repack" />
+                    </Span>
+                    <Span
+						Foreground="#FF7FFF00"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="35">
+                        <Run
+							Text=" &amp; " />
+                    </Span>
+                    <Span
+						Foreground="#FF800080"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="35">
+                        <Run
+							Text="Modify" />
+                    </Span>
+                    <Span
+						Foreground="#FF7FFF00"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="35">
+                        <Run
+							Text=" By" />
+                    </Span>
+                    <Span
+						Foreground="#FFFFD700"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="35">
+                        <Run
+							Text="Racpast" />
+                    </Span>
+                </Paragraph>
+                <Paragraph>
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="有任何" />
+                    </Span>
+                    <Span
+						Foreground="#FFFF0000"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="BUG或问题" />
+                    </Span>
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="欢迎加企鹅群：" />
+                    </Span>
+                    <Span
+						Foreground="#FF008000"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="339797041" />
+                    </Span>
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="或发邮件到：" />
+                    </Span>
+                    <Span
+						Foreground="#FFFFD700"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="yaojun.mail@qq.com" />
+                    </Span>
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="进行" />
+                    </Span>
+                    <Span
+						Foreground="#FFFFA500"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="反馈" />
+                    </Span>
+                    <Span
+						Foreground="#FF0000FF"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="！" />
+                    </Span>
+                    <LineBreak />
+                    <Span
+						Foreground="#FFFFA500"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="注：" />
+                    </Span>
+                    <Span
+						Foreground="#FFFFA500"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="本程序未对" />
+                    </Span>
+                    <Span
+						Foreground="#FFFF0000"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="任何考试数据" />
+                    </Span>
+                    <Span
+						Foreground="#FFFFA500"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="进行修改，" />
+                    </Span>
+                    <Span
+						Foreground="#FFFF0000"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="任何得分判断标准问题" />
+                    </Span>
+                    <Span
+						Foreground="#FF800080"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="与本程序无关" />
+                    </Span>
+                    <Span
+						Foreground="#FF191970"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="，均与现有官方版本完全相同。" />
+                    </Span>
+                    <Span
+						Foreground="#FF008000"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="任何标准问题，请与官方直接沟通。" />
+                    </Span>
+                    <LineBreak />
+                    <Span
+						Foreground="#FFFFFF00"
+						FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+						FontSize="30">
+                        <Run
+							Text="下面给出完整原理图（可拖动或放大查看）。" />
+                    </Span>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Grid
+			Margin="10,432,10,0"
+			Height="263"
+			VerticalAlignment="Top">
+            <hc:ImageViewer
+				Background="{DynamicResource SecondaryRegionBrush}"
+				ImageSource="pack://application:,,,/img/yl.png"
+				Margin="-2,-4,2,4" />
+        </Grid>
+        <Button
+			FontFamily="pack://application:,,,/font/mae.ttf#Minecraft AE Pixel"
+			Margin="-8,695,0,0"
+			VerticalAlignment="Top"
+			Content="确定"
+			Width="852"
+			FontSize="36"
+			Opacity="0.8"
+			Background="#CCFFFFFF"
+			BorderBrush="#FF0027FF"
+			Height="49"
+			Foreground="#FF0061FF"
+			Click="Exit_Click" />
+    </Grid>
+</Window>
