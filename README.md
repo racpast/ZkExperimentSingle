@@ -1,2 +1,9 @@
-# ZkExperimentSingle
-This is a project set up because of the inconvenience of computer simulation experiments for certain exams.
+# **ZkExperimentSingle**
+
+这个项目是为了解决**某个考试**的电脑仿真实验部分**练习不便**的问题而建立的。
+
+> ## **抱定为人民服务之心，增强为人民服务之能，付诸为人民服务之行。**
+
+注意，源码用Visual Studio编译后运行**不可以直接正常使用**。
+
+请下载**V4.6-Release的可执行文件压缩包**后解压，并将其中的**整个data文件夹**（包含实验程序本体）移动至编译的exe文件的**同目录下**。
