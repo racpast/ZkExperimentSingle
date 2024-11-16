@@ -12,7 +12,7 @@
 
 ### 1️⃣重制版下载：
 
-**链接**：[ZkExperimentSingle·Releases](https://github.com/racpast/ZkExperimentSingle/releases)
+**链接**：[ZkExperimentSingle · Releases](https://github.com/racpast/ZkExperimentSingle/releases)
 
 或
 
