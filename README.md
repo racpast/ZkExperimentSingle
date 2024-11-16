@@ -12,11 +12,11 @@
 
 ### 1️⃣重制版下载：
 
-**链接**：[https://github.com/racpast/ZkExperimentSingle/releases](ZkExperimentSingle·Releases)
+**链接**：[ZkExperimentSingle·Releases](https://github.com/racpast/ZkExperimentSingle/releases)
 
 或
 
-**链接**：[https://share.weiyun.com/F4DB1KnM](腾讯微云，可能失效)
+**链接**：[腾讯微云，可能失效](https://share.weiyun.com/F4DB1KnM)
 
 **密码**：abc123
 
